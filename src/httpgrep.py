@@ -96,9 +96,6 @@ def main():
         if keyword in response:
             print(Fore.BLUE + '==>' + Fore.RESET + ' {}'.format(link))
             results = process_source(response, keyword)
-            
-
-    pass
 
 
 if __name__ == '__main__':
